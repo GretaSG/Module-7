@@ -1,0 +1,100 @@
+ЧАСТ 1:
+https://repl.it/@GretaSG/RepentantRevolvingAbstraction#index.js или
+console.log("Hello Anton!");
+ 
+var user = {
+ firstName: "Greta",
+ lastName: "Georgieva",
+ userName: "GSG20202020",
+ password: 20202020,
+ UserNamelenght = true
+ 
+if (userNamelenght < 5) {
+window.alert("Sorry not enough username symbols");
+window.location.replace("http://www.repl.it/terms");
+}
+ 
+П.п. Пак нещо не се справих с функцията...
+-------------------------------------------------------------------------------------------------------------------
+Част 2:
+https://repl.it/@GretaSG/RepentantRevolvingAbstraction#index.js
+class App {
+ constructor (name, logo, welcomeMessage, logoutMessage,updateURL){
+   this.name = "Facebook";
+   this.logo = "smilyFace.gif";
+   this.welcomeMessage = "You Win A Hug";
+   this.logoutMessage = "Goodbye";
+   this.updateURL = "http://wwww.facebook.com/update/";
+  
+   App.checkOpen = function() {
+     if (App.open = true) {
+       document.write ("You Win A Hug");
+             }
+             App.checkClose = function(){
+               if (App.close == true){
+                 document.write("Goodbye");
+ 
+                 App.checkUpdateURL = function(){
+                   if (App.updateURL == true){
+                     window.location.replace("http://www.facebook.com/update/");
+                   }
+                 }
+               }
+             }
+   }
+ 
+ }
+}
+class extend AppName {
+var "Instagram" = object.create(Facebook);
+this.updateURL = "http://Instagram.com/update/";
+App.checkOpen();
+App.checkClose();
+App.checkUpdateURL();
+}
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Част 3:
+https://repl.it/@GretaSG/Chast-3#script.js 
+var browser = {
+ width: 1919,
+ hight: 2020,
+ sizeUnit: "pixels"
+ 
+ var display = {
+   colorDepth: 15,
+   colorUnit: "bit",
+   Color = true
+ 
+   var monitor = {
+     brand: "HP",
+     fullModelName: "HP ProDesk 600"
+ 
+     var Page = {
+       minimumRezolutionRequirements:[
+         1200,
+         480
+       ],
+       maximumWidth: 3840,
+       maximumHight: 2160,
+       minimumDepth: 8
+ 
+     }
+   }
+ }
+}
+-----------------------------------------------------------------
+Част 4:
+https://repl.it/@GretaSG/Chast-4#script.js
+<JSON></JSON>
+{
+ "ServiceOrganization": "Samsung",
+ "data": {
+   "founded": 1938,
+   "founder": "Lee Byung Chul",
+   "revenue": [2016, 201.6, "billion" "USD",[2017, 192.1, "billion", "USD", [2018, 208.5, "billion","USD"]]],
+   "employees": 309630,
+ },
+"headquarters": "Seocho District, Seoul, South Korea",
+"PMA partner": false
+}
